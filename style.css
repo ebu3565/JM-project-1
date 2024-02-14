@@ -20,8 +20,11 @@ h1{
 }
 .hire-button{
   color: white;
-  background-color: lightcoral;
-  padding: 8px;
+  background-image: linear-gradient(45deg, lightsalmon,tomato);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
 }
 section{
   height: 500px;
@@ -29,5 +32,17 @@ section{
 .top-banner{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
-
+}
+.middle-banner{
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+}
+.other-half{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.other-half img{
+width: 100%;
 }
